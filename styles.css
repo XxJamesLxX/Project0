@@ -1,0 +1,26 @@
+@media (min-width: 500px) {
+  h1::before {
+    content: "Information About Me"; } }
+@media (max-width: 499px) {
+  h1::before {
+    content: "About me"; } }
+h1 {
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin-top: 50px; }
+
+h2 {
+  color: #4b9adf; }
+
+div::selection {
+  color: white;
+  background-color: black; }
+
+#img {
+  text-align: center; }
+
+.titles {
+  font-style: italic; }
+
+/*# sourceMappingURL=styles.css.map */
